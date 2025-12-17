@@ -37,27 +37,25 @@ Findings:
 
 ⸻
 
-Troubleshooting Steps
-	1.	Attempted to renew the IP configuration:
-You sent
+Troubleshooting Steps:
+1.	Attempted to renew the IP configuration:
 2.	After renewal, verified that the device received:
 
 	•	A valid IP address
 	•	A default gateway
 	•	DNS server information
 
-	3.	Tested network connectivity and confirmed internet access.
+3.	Tested network connectivity and confirmed internet access.
 
 ⸻
 
-Resolution
-
+Resolution:
 The issue was caused by a failure to obtain an IP address from the DHCP server.
 Renewing the IP configuration successfully restored network connectivity.
 
 ⸻
 
-What I Learned
+What I Learned:
 	•	How to identify DHCP-related issues using ipconfig
 	•	The meaning and impact of APIPA addresses
 	•	A structured approach to troubleshooting Wi-Fi connectivity issues
